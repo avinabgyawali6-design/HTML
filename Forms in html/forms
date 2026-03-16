@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Forms in html</title>
+    </head>
+    <body>
+        <h1>Forms in html</h1>
+        <form>
+            <fieldset>
+                <legend>Personal details</legend>
+                <label>Enter your name:</label><br>
+                <input type="text" id="name"><br><br>
+                <label>Enter your email</label>
+                <input type="email"
+                id="email">
+                <label>Enter your password</label>
+                <input type="Password"
+                id="Password"><br><br>
+                <label>Select your gender</label>
+                <input type="radio"
+                id="male" name="Gender"
+                value="male">male<br>
+                <input type="radio"
+                id="female" name="Gender"
+                value="female"> Female<br>
+                <label>Select your favourite city</label><br>
+                <input type="chekbox"
+                id="mumbai" name="city"
+                value="mumbai">Mumbai<br>
+                <input type="checkbox"
+                 id="Delhi" name="city"
+                 value="mumbai">Mumbai<br>
+                 <label>birthday</label><br>
+                 <input type="date"id=bithday>
+        
+            </fieldset><br>
+            <fieldset>
+                <legend>enter your marks</legend>
+                <select name="subject1" id="subject1">
+                  <option value="maths">Math</option>
+                  <option value="computer">Computer</option>
+                  <option value="science">Science</option>
+                </select>
+
+                <select>
+                  <input type="number" id="m1"
+                name="m1"><br><br>
+
+                </select>
+                <select name="subject2" id="subject2">
+                    <option value="maths">Math</option>
+                    <option value="computer">Computer</option>
+                    <option value="science">Science</option>
+                </select>
+                
+                <select>
+                    <input type="number" id="m2" name="m2"><br><br>
+                </select>
+                <select name="subject3" id="subject3">
+                    <option value="maths">Math</option>
+                    <option value="computer">Computer</option>
+                    <option value="science">Science</option>
+                </select>
+                
+                <select>
+                    <input type="number" id="m3" name="m3"><br><br>
+                
+                </select>
+
+
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
