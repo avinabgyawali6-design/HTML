@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+h1 {
+    color: crimson;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 119, 0);
+    text-decoration: dashed;
+}
+ul{
+    font-weight: bold;
+}
+ul li:hover{
+    color: chocolate;
+}
+p::first-letter{
+    font-size: 200%;
+}
+a::after{
+    content: "🌌";
+}
+ul li::before{
+    content: "🚀";
+}
