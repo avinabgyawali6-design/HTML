@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title> Positioning </title>
+        <style>
+            div{
+              right: 30px;
+              border: 3px solid rgb(0, 26, 255);
+            }
+            div.absolute{
+                position: absolute;
+                left: 50px ;
+                border: 3px solid black;
+            }
+            div.relative{
+                position: relative;
+                left: 100px;
+                border: 3px solid red;
+            }
+            div.fixed{
+                position: fixed;
+                top: 0px ; 
+                right:20px ;
+                width: 300px
+                border:0px solid yellow ;
+            }
+            div.sticky{
+                position: sticky;
+                top: 1px;left: 20px;
+                width: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Positioning</h2>
+        <div>DIV with no positioning property</div>
+        <div class="sticky">Div with sticky positioning properties</div>
+        <div class="relative">Div with relative proposition
+            <div class="absolute">Div with the absolute class div</div>
+        </div>
+        <div class="fixed">Div with fixed position properties</div>
+        <br>
+        <P>Topic in details
+        
+        Positioning
+        
+        The CSS position property is used to set position for an element. It is also used to place an element behind another and
+        is also useful for scripted animation effects.
+        
+        You can position an element using the top, bottom, left and right properties. These properties can be used only after
+        the position property is set first. A position element's computed position property is relative, absolute, fixed or
+        sticky.
+        
+        CSS Static Positioning
+        CSS Fixed Positioning
+        CSS Relative Positioning
+        CSS Absolute Positioning
+        CSS Sticky Positioning
+        1) CSS Static Positioning
+        This is a default position for HTML elements. It always positions an element according to the normal flow of the page.
+        It is not affected by the top, bottom, left and right properties.
+        
+        2) CSS Fixed Positioning
+        
+        The fixed positioning property helps to put the element fixed on the browser. This fixed element is positioned relative
+        to the browser window and doesn't move even when you scroll the window.
+        
+        3) CSS Relative Positioning
+        The relative positioning property is used to set the element relative to its normal position.
+        
+        4) CSS Absolute Positioning
+        The absolute positioning is used to position an element relative to the first parent element that has a position other
+        than static. If no such element is found, the containing block is HTML.
+        
+        5) CSS Sticky Positioning
+        
+        The sticky positioning property helps to stick the text on the browser. The text starts with a static position and as
+        the user scrolls when the text reaches the position to stick, it fixes to that position even if the user scrolls down.
+        The text goes back to its static position if the user scrolls up beyond its static position.
+        
+        Opacity Property
+        The opacity property sets the opacity level for an element.
+        
+        The opacity level describes the element’s opaque level, where 1 is opaque, 0.5 is 50% see-through, and 0 is completely
+        transparent.</P>
+    </body>
+</html>
