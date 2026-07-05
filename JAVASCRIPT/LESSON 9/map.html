@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>JavaScript map</title>
+    </head>
+    <body>
+        <p>Multiply every element in array by 7 </p>
+        <p id="product_value"></p>
+        <p id="result"></p>
+        <button onclick="myfunction2()">click me</button>
+        <script>
+            var numbers = [1,2,3,4,5,6,7,8,9];
+            function myfunction(num)
+            {
+                return num*7
+            }
+            var new_array = numbers.map(myfunction);
+            document.getElementById("product_value").innerHTML = new_array
+
+          function myfunction2()
+          {
+            var x = 30;
+            var y = 50;
+            var sum = eval ("x+y");
+           document.getElementById("result").innerHTML = sum
+          }
+          
+        </script>
+    </body>
+</html>

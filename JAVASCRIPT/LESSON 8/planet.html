@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body {
+                text-align: center;
+                padding: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Planet Card</h1>
+        <p>use the javascript card to build the planet card</p>
+        <button onclick="showPlanet" style="background-color: chartreuse;">Show Planet</button>
+       <div class="card">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+       </div>
+       <script>
+        class planet{
+            constructor(name,fact)
+            {
+                this.name=name;
+                this.fact=fact;
+            }
+            describe()
+            {
+                return this.name + " ; " + "this.fact";
+            }
+        }
+        function showPlanet()
+        {
+            let p1 = new planet("earth" ,"the only planet having life")
+             let p2 = new planet("mercury", "nearest to sun")
+              let p3 = new planet("jupiter" ,"largest planet in solar system")
+
+
+              document.getElementsById("card1").innerHTML=
+              "<div class='card'><div class='planet-name'>" + p1.name + "</div>" +
+
+                "<div class='planet-fact'>" + p1.describe() + "</div></div>";
+
+            document.getElementById("card2").innerHTML =
+
+                "<div class='card'><div class='planet-name'>" + p2.name + "</div>" +
+
+                "<div class='planet-fact'>" + p2.describe() + "</div></div>";
+
+            document.getElementById("card3").innerHTML =
+
+                "<div class='card'><div class='planet-name'>" + p3.name + "</div>" +
+
+                "<div class='planet-fact'>" + p3.describe() + "</div></div>";
+        }
+       </script>
+
+    </body>
+    
+</html>

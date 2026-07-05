@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Zoo</title>
+    </head>
+    <body>
+        <h1>My Zoo</h1>
+        <P>Use the DOM and javascript to put the animals in the cage </P>
+        <div id="zoo">
+
+            <div id="zone">zone1:<span id="zone1"></span></div>
+            <div id="zone">zone2:<span id="zone2"></span></div>
+            <div id="zone">zone3:<span id="zone3"></span></div>
+            <div id="zone">total animals:<span id="total animals"></span></div>
+            <br><br>
+            <button onclick="openzoo()" style="background-color: aqua;">Open the zoo</button>
+            <p id="status">
+
+            </p>
+            <script>
+                function openzoo(){
+                    document.getElementById("zone1").innerHTML = "LION";
+                     document.getElementById("zone2").innerHTML = "elephant";
+                      document.getElementById("zone3").innerHTML = "peguin";
+                    
+                }
+            </script>
+        </div>
+    </body>
+</html>
