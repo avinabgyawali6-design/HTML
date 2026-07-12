@@ -1,0 +1,87 @@
+  body {
+      margin: 0px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .topnav {
+      background-color: black;
+      overflow: hidden;
+  }
+
+  .topnav a {
+      color: white;
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      font-size: larger;
+      padding: 16px 14px;
+  }
+
+  .topnav a:hover {
+      color: red;
+      background-color: cyan;
+
+  }
+
+  .topnav a.active {
+      background-color: green;
+  }
+
+
+   Image .safari-slide {
+
+      height: 200px;
+
+      text-align: center;
+
+      padding-top: 75px;
+
+      font-size: 1.8rem;
+
+      color: white;
+
+  }
+
+  .slide-forest {
+
+      background: darkgreen;
+
+  }
+
+  .slide-ocean {
+
+      background: steelblue;
+
+  }
+
+  .slide-desert {
+
+      background: orange;
+
+  }
+
+  .section {
+
+      padding: 70px 20px;
+
+      min-height: 300px;
+
+  }
+
+  #forest {
+
+      background: honeydew;
+
+  }
+
+  #ocean {
+
+      background: aliceblue;
+
+  }
+
+  #desert {
+
+      background: lightyellow;
+
+  }
