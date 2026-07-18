@@ -1,67 +1,39 @@
 <html>
     <head>
         <title>My school web</title>
-        <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
     </head>
-    <body  data-spy="scroll" data-target="#safariNav" data-offset="60">
+    <body>
        
-        <div class="topnav">
+        <div class="topnav" >
+            <h1 class="school-logo">
+                <img class="school-logo-icon" alt="school image" src="SCHOOL.jpeg" height="50" width="50" > <span class="school-logo-text">New Horizon E.B.S. School</span>
+            </h1>
             <a class="active" href="#home" >Home</a>
             <a href="contact.html">contact</a>
             <a href="updates.html">updates</a>
             <a href="profile.html">profile</a>
             <a href="about.html">about</a>
         </div>
+        <section class="slider">
+          <img id="slider-img" src="SCH.1.jpeg" alt="slider-img">
+          <div class="controls">
+            <button onclick="prevslide()">&lt;</button>
+            
+            <button onclick="nextslide()">&gt;</button>
+          </div>
+        </section>
+
+
+
         <script src="script.js"></script>
+        
+
+  </body>
+        </html>
 
         
-            <section>
-            <!-- TOPIC 1, 2, 3: CAROUSEL -->
-            
-            <div id="safariCarousel" class="carousel slide" data-ride="carousel">
-            
-                <ol class="carousel-indicators">
-            
-                    <li data-target="#safariCarousel" data-slide-to="0" class="active"></li>
-            
-                    <li data-target="#safariCarousel" data-slide-to="1"></li>
-            
-                    <li data-target="#safariCarousel" data-slide-to="2"></li>
-            
-                </ol>
-            
-                <div class="carousel-inner">
-            
-                    <div class="carousel-item active safari-slide slide-forest"><img class="myslide" src="SCH.1.jpeg"
-                            style="height:500px"></div>
-            
-                    <div class="carousel-item safari-slide slide-ocean"><img class="myslide" src="SCH.2.jpeg" style="height:500px">
-                    </div>
-            
-                    <div class="carousel-item safari-slide slide-desert"><img class="myslide" src="SCHOOL.jpeg" style="height:500px">
-                    </div>
-            
-                </div>
-            
-                <a class="carousel-control-prev" href="#safariCarousel" data-slide="prev">
-            
-                    <span class="carousel-control-prev-icon"></span>
-            
-                </a>
-            
-                <a class="carousel-control-next" href="#safariCarousel" data-slide="next">
-            
-                    <span class="carousel-control-next-icon"></span>
-            
-                </a>
-            
-            </div>
-        </section>
-    </body>
-    
-</html>
