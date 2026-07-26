@@ -1,6 +1,9 @@
   body {
       margin: 0px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      align-items: center;
+      align-self: center;
+      alignment-baseline: central;
   }
 
   .topnav {
@@ -55,12 +58,16 @@
       max-width: 800px;
       min-width: 700px;
       overflow: hidden;
+      align-self: center;
+      align-items: center;
   }
 
   .slider-img {
       width: 100px;
       height: auto;
       display: block;
+      align-self: center;
+      align-items: center;
   }
 
   .controls {

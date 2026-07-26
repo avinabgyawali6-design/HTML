@@ -277,3 +277,84 @@ contactinfo i {
     font-size: 1rem;
 
 }
+
+
+/* Destinations Page */
+
+.destinations {
+
+    padding: 2rem;
+
+    text-align: center;
+
+}
+
+.destinations h2 {
+
+    color: rgb(54, 54, 182);
+
+    margin-bottom: 1rem;
+
+}
+
+.destination-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 1.5rem;
+
+    justify-content: center;
+
+}
+
+.destination {
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+
+    width: 250px;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+}
+
+.destination:hover {
+
+    transform: translatey(-5px);
+
+}
+
+.destination img {
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+.destination h3 {
+
+    color: rgb(82, 100, 239);
+
+    margin: 1rem 0 0.5rem;
+
+}
+
+.destination p {
+
+    padding: 0 1rem 1.5rem;
+
+    font-size: 0.9rem;
+
+    color: #333;
+
+}
